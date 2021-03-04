@@ -1,0 +1,56 @@
+/* <<<--------- GENERAL STYLINGS -------->>> */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a,
+a:active,
+a:visited {
+  text-decoration: none;
+  color: #3c3b37;
+}
+
+a:hover,
+a:focus {
+  color: #5eb7c5;
+}
+
+.icon,
+.search_box button > img {
+  width: 1.3em;
+  color: crimson;
+}
+
+body {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #3c3b37;
+  min-height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.main_nav,
+.brand_side,
+.search_box,
+.right_hand,
+.first_box,
+.banner_side,
+.topics,
+.arrow > span,
+.cards_parent,
+.cards_parent .card > .card_texts,
+.card_texts > .new_tag,
+.card_texts > .hot_tag,
+.cards_parent .card .card_texts > .ratings,
+.cards_parent .card .ratings > .stars,
+.courses_arrow > span {
+  display: flex;
+}
+
+/* <<<--------- GENERAL STYLING ENDS -------->>> */
