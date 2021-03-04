@@ -54,3 +54,647 @@ body {
 }
 
 /* <<<--------- GENERAL STYLING ENDS -------->>> */
+
+
+
+
+/* <<<--------- UDEMY PROJECT STYLINGS START HERE -------->>> */
+
+header {
+  font-size: .94rem;
+  z-index: 999999999 !important;
+}
+
+.main_nav {
+  min-height: 7vh;
+  align-items: center;
+  width: 98%;
+  margin: 0 auto;
+  padding: 11px 0;
+}
+
+.brand_side {
+  align-items: center;
+  margin-right: 1.5em;
+}
+
+.brand_side .brand > .logo {
+  width: 7.8em;
+}
+
+.brand_side > a:not(:first-child) {
+  margin-left: 1.5em;
+}
+
+
+.search_box {
+  align-items: center;
+}
+
+.search_box > button {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  z-index: 9999999999;
+  position: relative;
+  left: 13px;
+  top: 3px;
+}
+
+.search_box > input {
+  width: 54.4em;
+  height: 6.1vh;
+  padding-left: 48px;
+  margin-left: -19px;
+  border: 1px solid rgb(139, 139, 139);
+  border-radius: 50px;
+  outline: none;
+  font-family: sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+  font-weight: 400;
+  background-color: #fbfbf8;
+}
+
+
+.right_hand {
+  align-items: center;
+  margin-left: 1.5em;
+}
+
+.right_hand > a {
+  margin-right: 1.5em;
+}
+
+.right_hand a > .nav_icon {
+  margin-top: 4px;
+  width: 1.52em;
+}
+
+
+.user_abb {
+  background-color: #f0bd4f;
+  padding: 5px;
+  font-size: .9rem;
+  border-radius: 50px;
+  position: relative;
+  left: -2px;
+  color: #fff !important;
+}
+
+.user_abb:hover {
+  color: #fff;
+}
+
+
+.sub_nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 0;
+  border-top: 1px solid #dcdacb;
+  background-color: #fbfbf8;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+  z-index: 999999999 !important;
+}
+
+.sub_nav > a:not(:last-child) {
+  margin-right: 2em;
+}
+
+
+/* MAIN CONTENT AREA */
+main {
+  width: 100%;
+}
+
+/* FLASH SALE SECTION */
+.flashsale_sect {
+  width: 84%;
+  margin: 0 auto;
+  position: relative;
+  z-index: -1;
+}
+
+.flashsale_sect > .flash_banner {
+  background-color: #fff;
+  display: inline-block;
+  position: absolute;
+  top: 58px;
+  left: 46px;
+  line-height: 2em;
+  height: 10em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 30px;
+  -webkit-box-shadow: 2px 2px 6px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+  -moz-box-shadow: 2px 2px 6px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+  box-shadow: 2px 2px 6px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+}
+
+.flashsale_sect .flash_banner > h2 {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.flashsale_sect .flash_banner > p {
+  margin-top: .8em;
+  line-height: 1.4em;
+  font-size: 1.25rem;
+}
+
+.flashsale_sect > img {
+  width: 100%;
+}
+
+/* LET'S START LEARNING SECTION */
+.learning_sect {
+  width: 84%;
+  margin: 0 auto;
+  padding: 3em 20px 0 20px;
+}
+
+.first_box {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.first_box > h2 {
+  font-size: 1.8em;
+  font-family: sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+}
+
+.first_box > a,
+.first_box > a:visited,
+.first_box > a:focus {
+  color: #0e6979;
+  font-weight: bold;
+  font-family: sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+}
+
+.first_box > a:hover {
+  color: #0a4a55;
+}
+
+
+.youtube_iframe {
+  height: 11em;
+  width: 27em;
+  margin-top: 1em;
+  border-radius: 3px;
+}
+
+
+.banner_side {
+  color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3.5em;
+  background: url(https://s.udemycdn.com/browse_components/shared-assets/purple-intersect.svg) repeat-x #003640;
+  background-size: auto 120%;
+  background-position: 0 -2.4rem;
+  border-radius: 5px;
+  height: 5.3em;
+  padding: 0 25px;
+}
+
+
+.banner_side > p {
+  font-size: 1.1rem;
+  font-weight: bolder;
+}
+
+.banner_side p > span {
+  font-weight: 400;
+  margin-left: 5px;
+}
+
+
+.banner_side .buttons > .left,
+.banner_side .buttons > .left:active,
+.banner_side .buttons > .left:focus {
+  color: #fff;
+  font-weight: bold;
+  background-color: #0f7c90;
+  padding: 9px 12px;
+  border-radius: 5px;
+}
+
+.banner_side .buttons > .left:hover {
+  background-color: #0a4a55;
+}
+
+.banner_side .buttons > .right {
+  color: #fff;
+  font-weight: bold;
+  border: 1px solid #fff;
+  background-color: transparent;
+  padding: 8px 20px;
+  border-radius: 5px;
+  margin-left: 8px;
+}
+
+
+
+/* WHAT TO LEARN NEXT SECTION */
+.to_learn_next {
+  width: 84%;
+  margin: 0 auto;
+  padding: 3em 20px 0 20px;
+  position: relative;
+}
+
+
+.to_learn_next > h2 {
+  font-size: 1.8em;
+  font-family: sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+}
+
+.to_learn_next > h3 {
+  margin: .7em 0 .6em 0;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+  word-spacing: .1em;
+}
+
+
+.topics {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topics > .topic_card {
+  border: 1px solid silver;
+  width: 15.8em;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.topic_card > a,
+.topic_card > a:active,
+.topic_card > a:focus {
+  font-weight: bold;
+  font-family: sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+  color: #0e6979e1;
+  padding: 15px 0;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+
+.topic_card > a:hover {
+  color: #003d47;
+}
+
+.top_topics {
+  margin-bottom: .7em;
+}
+
+
+.arrow {
+  position: absolute;
+  bottom: 37px;
+  right: -2px;
+  z-index: 88888;
+  width: 44px;
+  height: 44px;
+  display: inline-block;
+  border-radius: 100%;
+  background-color: #fff;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.137);
+}
+
+.arrow > span {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.arrow > span:hover svg {
+  stroke: #003d47;
+}
+
+.arrow svg {
+  stroke: #117b91;
+  width: 1.5rem;
+}
+
+
+.newest_courses {
+  width: 84%;
+  margin: 0 auto;
+  padding: 2.5em 20px 0 20px;
+  position: relative;
+  margin-bottom: 5em;
+}
+
+.newest_courses > h3 {
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+  word-spacing: .1em;
+  margin-bottom: .5em;
+}
+
+.newest_courses h3 > a,
+.newest_courses h3 > a:visited,
+.newest_courses h3 > a:focus {
+  color: #0e6979;
+}
+
+.newest_courses h3 > a:hover {
+  color: #003d47;
+}
+
+
+
+.cards_parent {
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.cards_parent > .card {
+  width: 15.4em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cards_parent .fifth_card:hover .fifth {
+  display: inline-block;
+}
+
+.cards_parent .card > .card_img {
+  width: 100%;
+  height: 4em;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.cards_parent .card img {
+  width: 100%;
+  border-radius: 3px;
+}
+
+.cards_parent .card > .card_texts {
+  flex-direction: column;
+}
+
+.card_texts {
+  position: relative;
+}
+
+.card_texts > .title,
+.card_texts > .value {
+  margin-top: .3em;
+  font-weight: bold;
+  font-family: sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+}
+
+.card_texts > .hot_tag {
+  width: 5em;
+  height: 1.6em;
+  margin-top: .5em;
+  background-color: #f99;
+  color: #521818;
+  text-align: center;
+  border-radius: 3px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+}
+
+.card_texts > .new_tag {
+  width: 3em;
+  height: 1.6em;
+  align-items: center;
+  justify-content: center;
+  margin-top: .5em;
+  background-color: #99dbaa;
+  color: #003b0f;
+  text-align: center;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.cards_parent .card .card_texts > .ratings {
+  display: flex;
+  align-items: center;
+}
+
+.ratings > .rate,
+.ratings > .stars {
+  margin-right: .5em;
+}
+
+.cards_parent .card .ratings > .stars {
+  justify-content: center;
+  align-items: center;
+}
+
+.cards_parent .stars > img {
+  width: .9rem;
+}
+
+.courses_arrow {
+  position: absolute;
+  top: -90px;
+  right: -20px;
+  z-index: 88888;
+  width: 44px;
+  height: 44px;
+  display: inline-block;
+  border-radius: 100%;
+  background-color: #fff;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.137);
+}
+
+.courses_arrow > span {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.courses_arrow > span:hover svg {
+  stroke: #003d47;
+}
+
+.courses_arrow svg {
+  stroke: #117b91;
+  width: 1.5rem;
+}
+
+/* POP-UP STYLINGS */
+.pop_up {
+  width: 24.5em;
+  color: #3c3b37;
+  position: relative;
+  padding: 35px 25px 25px 25px;
+  border: 1px solid #dcdacb;
+  border-radius: 5px;
+  z-index: 999999999999999999999999999999999999;
+  box-shadow: 3px 3px 5px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+  background-color: #fff;
+}
+
+.pop_title {
+  color: #3c3b37;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.pop_title:hover {
+  color: #0e6979;
+}
+
+.info_space {
+  display: flex;
+  align-items: center;
+  margin-top: .5em;
+}
+
+.info_space > .new_tag {
+  width: 3em;
+  height: 1.6em;
+  align-items: center;
+  justify-content: center;
+  background-color: #99dbaa;
+  color: #003b0f;
+  text-align: center;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.info_space > .hot_tag {
+  width: 5em;
+  height: 1.6em;
+  background-color: #f99;
+  color: #521818;
+  text-align: center;
+  border-radius: 3px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+}
+
+.info_space > .date {
+  margin-left: .5em;
+  font-size: .88rem;
+  color: #65a074;
+}
+
+.date > span {
+  color: #003b0f;
+}
+
+.pop_up > .desc {
+  margin: .6em 0;
+  font-size: .87rem;
+  color: #3c3b37e5;
+  letter-spacing: .04em;
+}
+
+.pop_up > .more_info {
+  font-size: .95rem;
+  color: #31302de1;
+}
+
+.pop_up > .pop_list {
+  margin-top: .6em;
+  list-style-type: none;
+}
+
+.pop_list > li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: .5em;
+  font-size: .95rem;
+  color: #31302de1;
+}
+
+.pop_list li > div {
+  max-width: 17px;
+  margin-right: .8em;
+}
+
+.pop_list li div > svg {
+  width: 100%;
+}
+
+.pop_up > .buttons {
+  display: flex;
+  align-items: center;
+  margin-top: .7em;
+}
+
+.buttons .add_to_cart {
+  width: 85%;
+  height: 3em;
+  line-height: 48px;
+  
+  display: inline-block;
+  background-color: #ec5352;
+  border-radius: 5px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+}
+
+.buttons .like {
+  width: 45px;
+  height: 45px;
+  margin-left: 10px;
+  border-radius: 100%;
+  border: 1px solid #117b91;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.like > svg {
+  width: 20px;
+  color: #117b91;
+}
+
+/* POSITIONING OF POPUP MODALS */
+.first {
+  position: absolute;
+  top: 78px;
+  left: 265px;
+  display: none;
+}
+
+.second {
+  position: absolute;
+  top: 78px;
+  left: 515px;
+  display: none;
+}
+
+.third {
+  position: absolute;
+  top: 25px;
+  left: 757px;
+  display: none;
+}
+
+.fourth {
+  position: absolute;
+  top: 25px;
+  right: -111px;
+  display: none;
+}
+
+.fifth {
+  position: absolute;
+  top: 25px;
+  right: 263px;
+  transition: 1s ease-in;
+  display: none;
+}
+
+/* <<<--------- UDEMY PROJECT STYLINGS END HERE -------->>> */
