@@ -54,3 +54,57 @@ body {
 }
 
 /* <<<--------- GENERAL STYLING ENDS -------->>> */
+
+
+
+
+/* <<<--------- UL PROJECT STYLINGS START HERE -------->>> */
+
+.ul_list {
+  height: auto;
+  width: 80vw;
+  max-width: 600px;
+  margin: 0 auto;
+  list-style-type: none;
+  background: #e9e8c4;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 50px;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid rgba(231, 228, 228, 0.589);
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.212);
+}
+
+.ul_list_item {
+  display: flex;
+  align-items: center;
+  line-height: 55px;
+  border-bottom: 1px solid rgba(32, 15, 3, 0.164);
+}
+
+.ul_list_item > img {
+  width: 20px;
+  margin-top: .1em;
+  margin-right: .8em;
+}
+
+@media screen and (max-width: 850px) {
+  .ul_list {
+    font-size: 1.3rem; 
+  }
+
+  .ul_list_item {
+    line-height: 50px;
+  }
+
+  .ul_list_item > img {
+    margin-top: .2em;
+    margin-right: .5em;
+  }
+}
+
+/* <<<--------- UL PROJECT STYLINGS END HERE -------->>> */
