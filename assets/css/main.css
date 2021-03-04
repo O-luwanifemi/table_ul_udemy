@@ -54,3 +54,84 @@ body {
 }
 
 /* <<<--------- GENERAL STYLING ENDS -------->>> */
+
+
+
+
+/* <<<--------- TABLE PROJECT STYLINGS START HERE -------->>> */
+
+table {
+  height: auto;
+  width: 80vw;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  background: #e9e8c4;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.212);
+}
+
+table,
+th,
+td {
+  border: 1px solid rgba(4, 32, 13, 0.37);
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+table > caption {
+  font-size: .9rem;
+  text-transform: uppercase;
+  margin-bottom: .8em;
+}
+
+thead > tr,
+tbody > tr {
+  line-height: 50px;
+}
+
+th {
+  font-size: 1.23rem;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.74);
+}
+
+tr:not(:first-of-type) {
+  line-height: 50px;
+}
+
+@media screen and (max-width: 700px) {
+  table {
+    width: 90vw;
+  }
+
+  table > caption {
+    font-size: .7rem;
+    margin-bottom: .96em;
+  }
+
+  thead > tr,
+  tbody > tr {
+    line-height: auto;
+  }
+
+  td,
+  th {
+    width: 140px;
+  }
+
+  td {
+    font-size: .95rem;
+  }
+
+  th {
+    font-size: .99em;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.795);
+  }
+}
+
+/* <<<--------- TABLE PROJECT STYLINGS END HERE -------->>> */
