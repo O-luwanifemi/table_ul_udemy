@@ -23,7 +23,10 @@ a:focus {
 .icon,
 .search_box button > img {
   width: 1.3em;
-  color: crimson;
+}
+
+ul {
+  list-style-type: none;
 }
 
 body {
@@ -39,6 +42,7 @@ body {
 .brand_side,
 .search_box,
 .right_hand,
+.sub_nav > ul,
 .first_box,
 .banner_side,
 .topics,
@@ -61,29 +65,29 @@ body {
 /* <<<--------- UDEMY PROJECT STYLINGS START HERE -------->>> */
 
 header {
-  font-size: .94rem;
+  font-size: .9rem;
   z-index: 999999999 !important;
 }
 
 .main_nav {
-  min-height: 7vh;
+  min-height: 8vh;
   align-items: center;
-  width: 98%;
+  width: 97.8%;
   margin: 0 auto;
   padding: 11px 0;
 }
 
 .brand_side {
   align-items: center;
-  margin-right: 1.5em;
+  margin-right: 1.6em;
 }
 
-.brand_side .brand > .logo {
+.brand_side li .brand > .logo {
   width: 7.8em;
 }
 
-.brand_side > a:not(:first-child) {
-  margin-left: 1.5em;
+.brand_side > li:not(:first-child) {
+  margin-left: 1.6em;
 }
 
 
@@ -97,15 +101,15 @@ header {
   background-color: transparent;
   z-index: 9999999999;
   position: relative;
-  left: 13px;
+  left: 22px;
   top: 3px;
 }
 
 .search_box > input {
-  width: 54.4em;
-  height: 6.1vh;
+  width: 42.8em;
+  height: 6.7vh;
   padding-left: 48px;
-  margin-left: -19px;
+  margin-left: -12px;
   border: 1px solid rgb(139, 139, 139);
   border-radius: 50px;
   outline: none;
@@ -117,38 +121,42 @@ header {
 
 .right_hand {
   align-items: center;
-  margin-left: 1.5em;
+  margin-left: 1.6em;
 }
 
-.right_hand > a {
+.right_hand > li {
   margin-right: 1.5em;
 }
 
 .right_hand a > .nav_icon {
   margin-top: 4px;
+  margin-left: .4em;
   width: 1.52em;
 }
 
 
 .user_abb {
   background-color: #f0bd4f;
-  padding: 5px;
   font-size: .9rem;
-  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
   position: relative;
   left: -2px;
   color: #fff !important;
+  text-align: center;
 }
 
 .user_abb:hover {
   color: #fff;
 }
 
+.user_abb > h3 {
+  line-height: 30px;
+}
+
 
 .sub_nav {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   padding: 14px 0;
   border-top: 1px solid #dcdacb;
   background-color: #fbfbf8;
@@ -156,8 +164,13 @@ header {
   z-index: 999999999 !important;
 }
 
-.sub_nav > a:not(:last-child) {
-  margin-right: 2em;
+.sub_nav > ul {
+  align-items: center;
+  justify-content: center;
+}
+
+.sub_nav ul > li:not(:last-child) {
+  margin-right: 2.2em;
 }
 
 
@@ -168,7 +181,7 @@ main {
 
 /* FLASH SALE SECTION */
 .flashsale_sect {
-  width: 84%;
+  width: 93.6%;
   margin: 0 auto;
   position: relative;
   z-index: -1;
@@ -182,6 +195,7 @@ main {
   left: 46px;
   line-height: 2em;
   height: 10em;
+  width: 32.5%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -208,14 +222,15 @@ main {
 
 /* LET'S START LEARNING SECTION */
 .learning_sect {
-  width: 84%;
+  width: 93%;
   margin: 0 auto;
-  padding: 3em 20px 0 20px;
+  padding: 4em 20px 0 20px;
 }
 
 .first_box {
   justify-content: space-between;
   align-items: center;
+  margin-bottom: .4em;
 }
 
 .first_box > h2 {
@@ -297,7 +312,7 @@ main {
 
 /* WHAT TO LEARN NEXT SECTION */
 .to_learn_next {
-  width: 84%;
+  width: 93%;
   margin: 0 auto;
   padding: 3em 20px 0 20px;
   position: relative;
@@ -305,7 +320,8 @@ main {
 
 
 .to_learn_next > h2 {
-  font-size: 1.8em;
+  font-size: 2em;
+  margin-bottom: .6em;
   font-family: sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
 }
 
@@ -383,11 +399,11 @@ main {
 
 
 .newest_courses {
-  width: 84%;
+  width: 93%;
   margin: 0 auto;
   padding: 2.5em 20px 0 20px;
   position: relative;
-  margin-bottom: 5em;
+  margin-bottom: 12em;
 }
 
 .newest_courses > h3 {
@@ -527,9 +543,10 @@ main {
   width: 1.5rem;
 }
 
+
 /* POP-UP STYLINGS */
 .pop_up {
-  width: 24.5em;
+  width: 320px;
   color: #3c3b37;
   position: relative;
   padding: 35px 25px 25px 25px;
@@ -671,21 +688,21 @@ main {
 .second {
   position: absolute;
   top: 78px;
-  left: 515px;
+  left: 510px;
   display: none;
 }
 
 .third {
   position: absolute;
   top: 25px;
-  left: 757px;
+  left: 752px;
   display: none;
 }
 
 .fourth {
   position: absolute;
   top: 25px;
-  right: -111px;
+  right: 508px;
   display: none;
 }
 
@@ -695,6 +712,72 @@ main {
   right: 263px;
   transition: 1s ease-in;
   display: none;
+}
+
+
+
+/* --- MEDIA QUERIES --- */
+
+@media screen and (max-width: 1358px) {
+  .search_box > input {
+    width: 42.4em;
+  }
+}
+
+@media screen and (max-width: 1351px) {
+  .search_box > input {
+    width: 42em;
+  }
+}
+
+@media screen and (max-width: 1346px) {
+  .search_box > input {
+    width: 41.6em;
+  }
+}
+
+@media screen and (max-width: 1340px) {
+  .search_box > input {
+    width: 41.15em;
+  }
+}
+
+@media screen and (max-width: 1326px) {
+  .topics > .topic_card {
+    width: 15.7em;
+  }
+}
+
+@media screen and (max-width: 1317px) {
+  .search_box > input {
+    width: 40em;
+  }
+
+  .flashsale_sect .flash_banner > h2 {
+    font-size: 2.3rem;
+  }
+  
+  .flashsale_sect .flash_banner > p {
+    font-size: 1rem;
+  }
+
+  .topics > .topic_card {
+    width: 15.55em;
+  }
+}
+
+@media screen and (max-width: 1302px) {
+  .search_box > input {
+    width: 38em;
+  }
+
+  .topics > .topic_card {
+    width: 15.4em;
+  }
+
+  .cards_parent > .card {
+    width: 15.1em;
+  }
 }
 
 /* <<<--------- UDEMY PROJECT STYLINGS END HERE -------->>> */
